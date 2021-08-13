@@ -11,18 +11,19 @@ TODAY = date.today().strftime("%Y-%m-%d")
 
 st.title('Stock Forecast App')
 
-stocks = ('GOOG', 'AAPL')
+stocks = ('apple_data', 'amazon_data','tesla_data','starbucks_data','qualcomm_data','microsoft_data','facebook_data','cisco_data')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
+DATA_URL =('./stocks_data_preprocessed/'+option+'.csv')
 
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
 
 
 @st.cache
-def load_data(ticker):
-    data = yf.download(ticker, START, TODAY)
-    data.reset_index(inplace=True)
+def load_data():
+    data = pd.read_csv(DATA_URL)
     return data
+    
 
 
 data_load_state = st.text('Loading data...')
@@ -37,7 +38,7 @@ st.write(data.tail())
 def plot_raw_data():
     fig = go.Figure()
     fig.add_trace(go.Scatter(x=data['Date'], y=data['Open'], name="stock_open"))
-    fig.add_trace(go.Scatter(x=data['Date'], y=data['Close'], name="stock_close"))
+    fig.add_trace(go.Scatter(x=data['Date'], y=data['Close/Last'], name="stock_close"))
     fig.layout.update(title_text='Time Series data with Rangeslider', xaxis_rangeslider_visible=True)
     st.plotly_chart(fig)
 
@@ -45,8 +46,8 @@ def plot_raw_data():
 plot_raw_data()
 
 # Predict forecast with Prophet.
-df_train = data[['Date', 'Close']]
-df_train = df_train.rename(columns={"Date": "ds", "Close": "y"})
+df_train = data[['Date', 'Close/Last']]
+df_train = df_train.rename(columns={"Date": "ds", "Close/Last": "y"})
 
 m = Prophet()
 m.fit(df_train)
