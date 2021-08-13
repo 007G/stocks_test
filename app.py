@@ -13,7 +13,7 @@ st.title('Stock Forecast App')
 
 stocks = ('apple_data', 'amazon_data','tesla_data','starbucks_data','qualcomm_data','microsoft_data','facebook_data','cisco_data')
 selected_stock = st.selectbox('Select dataset for prediction', stocks)
-DATA_URL =('./stocks_data_preprocessed/'+option+'.csv')
+DATA_URL =('./stocks_data_preprocessed/'+selected_stock+'.csv')
 
 n_years = st.slider('Years of prediction:', 1, 4)
 period = n_years * 365
