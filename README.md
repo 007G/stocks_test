@@ -96,27 +96,34 @@ To run this project locally follow the below mentioned steps.
    ```
 
 
+### Datasets used
+1. http://www.nasdaq.com/
+2. https://in.finance.yahoo.com
+3. https://www.google.com/finance
+
+
+
+<!-- Research Paper -->
+### Research Paper
+- [Machine Learning in Stock Price Trend Forecasting. Yuqing Dai, Yuning Zhang](http://cs229.stanford.edu/proj2013/DaiZhang-MachineLearningInStockPriceTrendForecasting.pdf)
+- [Stock Market Forecasting Using Machine Learning Algorithms. Shunrong Shen, Haomiao Jiang. Department of Electrical Engineering. Stanford University](http://cs229.stanford.edu/proj2012/ShenJiangZhang-StockMarketForecastingusingMachineLearningAlgorithms.pdf)
+- [How can machine learning help stock investment?, Xin Guo](http://cs229.stanford.edu/proj2015/009_report.pdf)
+
+
+### References
+- [Recurrent Neural Networks - LSTM Models](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [ARIMA Models](http://people.duke.edu/~rnau/411arim.htm)
+- [Scikit-Learn](http://scikit-learn.org/stable/)
+- [Prophet](https://facebook.github.io/prophet/docs/quick_start.html)
+
+
+
+
 <!-- CONTACT -->
 ## Contact
 
 
 Team Lead: https://github.com/007G
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Img Shields](https://shields.io)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
 
 
 
