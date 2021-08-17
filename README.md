@@ -100,7 +100,7 @@ To run this project locally follow the below mentioned steps.
 ## Contact
 
 
-Project Link: https://github.com/007G
+Team Lead: https://github.com/007G
 
 
 
