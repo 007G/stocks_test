@@ -100,7 +100,7 @@ To run this project locally follow the below mentioned steps.
 ## Contact
 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/Technocolabs100/Predicting-stock-prices-for-large-cap-technology-companies-MLE-202](https://github.com/your_username/repo_name)
 
 
 
