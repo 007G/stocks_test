@@ -32,11 +32,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo_name">
+  <a href="https://github.com/007G/stocks_test">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">Predicting-stock-prices-for-large-cap-technology-companies</h3>
 
   <p align="center">
     project_description
