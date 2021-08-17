@@ -79,29 +79,26 @@ To run this project locally follow the below mentioned steps.
 
 ### Installation
 
-1. Install Python with some IDE and then install the requirements.txt.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/Technocolabs100/Predicting-stock-prices-for-large-cap-technology-companies-MLE-202.git
+   ```
+
+2. Install Python & requirements.txt.
 * requirements.txt
   ```sh
   pip install requirements.txt
   ```
-2. Clone the repo
+
+3. Run app.py
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
+   streamlit run app.py
    ```
 
 
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
 
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
 
