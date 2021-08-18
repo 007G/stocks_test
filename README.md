@@ -52,6 +52,13 @@
 
 The goal of the project is to predict price changes in the future for a given stock. Information that is leveraged to make these predictions includes prices from previous days  related to the company of interest.
 
+
+
+
+https://user-images.githubusercontent.com/29423976/129885680-6888843b-d84c-4930-a15b-fae2dd64bbe9.mp4
+
+
+
 ### Built With
 
 
